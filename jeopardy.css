@@ -1,0 +1,50 @@
+body {
+  font-family: 'Copse', sans-serif;
+  background-color: #115ff4;
+  color: white;
+  text-align: center;
+}
+
+#jeopardy {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+#jeopardy th, #jeopardy td {
+  border: 2px solid #060ce9;
+  padding: 20px;
+  width: 150px;
+  height: 100px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #8d2ab5;
+}
+
+#jeopardy th {
+  background-color: #74119c;
+}
+
+#jeopardy td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#start-button {
+  background-color: #28a200;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 20px;
+}
+
+#start-button:disabled {
+  background-color: grey;
+}
+
+#spinner {
+  font-size: 1.5em;
+  color: white;
+}
